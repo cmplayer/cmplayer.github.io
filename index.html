@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css' />
+    <link href="favicon.ico" type="image/x-icon" rel="shortcut icon" /> 
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
@@ -21,7 +22,7 @@
       <div class="inner">
         <h1>CMPlayer</h1>
         <h2>Powerful and Easy-to-use Multimedia Player</h2>
-        <a href="https://github.com/xylosper/cmplayer" class="button"><small>View on</small>GitHub</a>
+        <a href="https://github.com/xylosper/cmplayer" class="button"><small>View on</small> GitHub</a>
       </div>
     </header>
 
@@ -50,7 +51,7 @@
 	<li>OpenGL 2.0 or later</li>
 </ul>
 <p>
-	For more details, see <a href="#dependencies">Dependencies</a> section.
+	For more details, see <a href="#dependencies">Dependencies</a>.
 </p>
 
 <h3>Key Features</h3>
@@ -83,7 +84,7 @@
 </dl>
 <p>
 	CMPlayer also has so many features which are not addressed here.
-	For more details, see <a href="#feature-list">Feature List</a>
+	For more details, see <a href="#feature-list">Feature List</a>.
 </p>
 
 <h3>Contacts</h3>
@@ -123,77 +124,86 @@ GNU General Public License for more details.</p>
 <p>You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</p>
-	
-	for end users, which does not require complex settings.
-CMPlayer can be executed in Linux and OS X.
-CMPlayer is distributed under GPL. For more details, please read copyright.txt.
-To compile and install CMPlayer, please read install.txt.
-If you find a bug or have some idea for CMPlayer, please contact followings:
-Developer's Blog: http://xylosper.net
-Developer's E-mail: darklin20@gmail.com
-CMPlayer project homepage: http://code.google.com/p/cmplayer</p>
 
 <h3 id="feature-list">Feature List</h3>
+
+			<li>Generate playlist</li>
+			<li>can adjust line spacing in subtitle</li>
 
 <ul>
 	<li>
 		Playback
 		<ul>
-			<li>can play files and DVD</li>
-			<li>generates playlist automatically</li>
-			<li>can change playback speed</li>
-			<li>supports A-B repeat</li>
-			<li>remembers play history</li>
-			<li>can replay from stopped point</li>
-			<li>supports hardware-accelerated decoding</li>
+			<li>Various media files and DVD</li>
+			<li>Multi-chapter files(mkv)</li>
+			<li>Playback speed</li>
+			<li>A-B repeat specified by time</li>
+			<li>A-B repeat specified by subtitle</li>
+			<li>Playback history</li>
+			<li>Playlist support</li>
+			<li>Resume playback</li>
+			<li>Hardware-accelerated decoding(turned off by default)</li>
+			<li>Accurate seeking</li>
+			<li>tri-level steps for seeking</li>
+			<li>Seeking by subtitle</li>
+			<li>Image slide show</li>
 		</ul>
 	</li>
 	<li>
 		Video
 		<ul>
-			<li>can take snapshots</li>
-			<li>can adjust aspect ratio</li>
-			<li>can crop video</li>
-			<li>can align and move the screen</li>
-			<li>can adjust color properties(brightness/saturation/contrast/hue)</li>
-			<li>supports various video filters (flipping/blur/sharpen/...)</li>
+			<li>Snapshot</li>
+			<li>Adjust aspect ratio and crop</li>
+			<li>Adjust screen poistion and alignment</li>
+			<li>Filters(flipping/blur/sharpen/...)</li>
+			<li>Color Equalizer(brightness/saturation/contrast/hue)</li>
 		</ul>
 	</li>
 	<li>
 		Audio
 		<ul>
-			<li>supports multi-track files</li>
-			<li>supports volume normalization</li>
-			<li>adjusts pitch automatically when playback speed is changed</li>
+			<li>Multi-track files</li>
+			<li>Adjust volume/mute</li>
+			<li>Adjust amplification</li>
+			<li>Adjust audio-video synchronization</li>
+			<li>Volume normalization</li>
+			<li>Tempo scaler(auto-adjust pitch)</li>
 		</ul>
 	</li>
 	<li>
 		Subtitle
 		<ul>
-			<li>supports various subtitle formats (Sami(smi)/SubRip(srt)/MicroDVD/TMPlayer)</li>
-			<li>supprots unified subititles of Sami format</li>
-			<li>supports colored subtitles of Sami format</li>
-			<li>can adjust line spacing in subtitle</li>
-			<li>can display several subtitles at the same time</li>
-			<li>detects the encoding of subtitle files</li>
-			<li>has subtitle viewer</li>
-			<li>can seek playback with subtitle time</li>
-			<li>can display DVD with subtitle files</li>
+			<li>Various subtitle formats (Sami(smi)/SubRip(srt)/MicroDVD/TMPlayer/ASS)</li>
+			<li>Multi-language .smi support</li>
+			<li>Formatted text including &lt;ruby&gt; support(.smi/.srt/.ass)</li>
+			<li>Display multiple subtitles</li>
+			<li>Auto-dection of subtitle encoding</li>
+			<li>Subtitle viewer</li>
+			<li>Display in letterbox or video</li>
+			<li>Adjust top/bottom alignment and position</li>
+			<li>Adjust subtitle sychronization</li>
 		</ul>
 	</li>
 	<li>
-		etc.
+		Other Good things
 		<ul>
-			<li>supports auto-exit which makes itself closed when the playlist has finished</li>
-			<li>supports auto-shutdown which makes the system shutdown when the playlist has finished</li>
-			<li>supports single application</li>
-			<li>supprots the system tray icon on Linux</li>
-			<li>pause when minimized and auto-start when recovered</li>
-			<li>supports 'stays on top'</li>
-			<li>can disable the screensaver while playing</li>
-			<li>can customize the shortcut of every menu</li>
-			<li>can customize mouse action</li>
-			<li>can customize control steps (volume, seeking, and so on)</li>
+			<li>Auto-exit on playlist finished</li>
+			<li>Auto-shutdown on playlist finished</li>
+			<li>Display playback informations</li>
+			<li>Stay on top always/playing/never</li>
+			<li>Tray icon support (Linux only)</li>
+			<li>Single application support</li>
+			<li>Generate playlist</li>
+			<li>Auto-pausing on hidden</li>
+			<li>Auto-hidiing mouse cursor</li>
+			<li>OSD notification</li>
+			<li>Various skins</li>
+			<li>Configurable auto-loading and auto-selection of subtitles</li>
+			<li>Customizable subtitle appearance and line spacing</li>
+			<li>Disable screensaver while playing</li>
+			<li>Customizable mouse actions</li>
+			<li>Customizable keyboard shortcuts</li>
+			<li>Customizable control steps</li> 
 		</ul>
 	</li>
 </ul>
@@ -214,14 +224,18 @@ CMPlayer project homepage: http://code.google.com/p/cmplayer</p>
 </section>
 
 <aside id="sidebar">
-<p class="repo-owner"><a href="https://github.com/xylosper/cmplayer"></a>Maintained by <a href="http://xylosper.net">xylosper</a>.</p>
+<p class="repo-owner"><a href="https://github.com/xylosper/cmplayer"></a>Maintained by <a href="http://xylosper.net">xylosper</a></p>
+<h3>Downloads</h3>
 
- <!-- sample <a href="https://github.com/xylosper/cmplayer/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a> -->
-<a href="" class="button"><small>Download</small>.zip file</a>
-<a class="button">AUR</a>
+<a class="button" href="https://github.com/xylosper/cmplayer/releases/download/0.7.6/cmplayer-0.7.6-source.tar.gz"><small>0.7.6 sources</small>.tar.gz file</a>
+<a class="button" href="http://cmplayer.googlecode.com/files/CMPlayer-0.7.3.dmg"><small>0.7.3 Mac OS X</small>.dmg file</a>
+<a class="button" href="https://aur.archlinux.org/packages/cmplayer"><small>Arch Linux Package</small>Go to AUR</a>
+<a class="button" href="https://launchpad.net/~darklin20/+archive/cmplayer-ppa"><small>Ubuntu Package</small>Go to PPA</a>
+
+<h3>Releated Project</h3>
+<ul>
+	<li><a href="http://mpv.io">mpv</a></li>
+</ul>
 
 
 <h3>Links</h3>
