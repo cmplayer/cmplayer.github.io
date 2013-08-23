@@ -13,165 +13,233 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>Cmplayer.github.io by cmplayer</title>
+    <title>CMPlayer Project Page</title>
   </head>
 
   <body>
     <header>
       <div class="inner">
-        <h1>Cmplayer.github.io</h1>
-        <h2></h2>
-        <a href="https://github.com/cmplayer" class="button"><small>Follow me on</small>GitHub</a>
+        <h1>CMPlayer</h1>
+        <h2>Powerful and Easy-to-use Multimedia Player</h2>
+        <a href="https://github.com/xylosper/cmplayer" class="button"><small>View on</small>GitHub</a>
       </div>
     </header>
 
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <p>CMPlayer 개발자는 한국인입니다. 외국 유저를 위해서 영어위주로 설명이 되어있으니, 영어울렁증이 있으신분은 부담없이 한국어로 문의해주세요.</p>
 
-<p>=CMPlayer 0.7.3 is released!=</p>
+<p>영어 위주로 작성되어 있지만, 한국분은 부담없이 한국어로 문의해주세요.</p>
 
-<p>Changes</p>
+<!-- for what?? <a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a> -->
+<h3>Introduction</h3>
 
-<ul>
-<li>Fix: 'Open from file manager' and 'Open by drag-and-drop' options weren't saved</li>
-<li>Fix: Sometimes auto-pause and replay on hiding and showing fails</li>
-<li>Fix: Wrong behavior on opening media when minimized</li>
-<li>Fix: Wrong window title when the location is invalid</li>
-<li>Fix: Wrong format comparision which causes video torn</li>
-<li>Fix: Keep the volume when media changed</li>
-<li>Fix: No audio when audio track changed</li>
-<li>Fix: Show application icon when the window reopen</li>
-<li>New: Audio track circulation</li>
-<li>New: Keyboard shortcut preset and Movist preset</li>
-<li>New: Playlist menu</li>
-<li>New: Adjust audio sync delay</li>
-<li>New: Lion-style fullscreen can be disabled</li>
-</ul><p>Arch Linux AUR: <a href="https://aur.archlinux.org/packages/cmplayer">https://aur.archlinux.org/packages/cmplayer</a></p>
+<p>
+	CMPlayer is a multimedia player.
+	It is aimed for easy usage but also powerful features.
+	It provides various features and convenience functions.
+	Just install and enjoy it!
+	There will be already what you expect.
+	If you don't like, you can configure almost everything.
+</p>
 
-<p>Ubuntu PPA: <a href="https://launchpad.net/%7Edarklin20/+archive/cmplayer-ppa">https://launchpad.net/~darklin20/+archive/cmplayer-ppa</a></p>
-
-<p>=Introduction=</p>
-
-<p>CMPlayer is a multimedia player which (ultimately) does not requre any complex configure or something for Linux and Mac OS X.</p>
-
-<p>Just download it and play what you want to play.</p>
-
-<p>Features</p>
+<h3>Requirements</h3>
 
 <ul>
-<li>
-<p>Playback</p>
-
-<ul>
-<li>can play files and DVD</li>
-<li>generates playlist automatically</li>
-<li>can change playback speed</li>
-<li>supports A-B repeat</li>
-<li>remembers play history</li>
-<li>can replay from stopped point</li>
-<li>supports hardware-accelerated decoding</li>
+	<li>Linux / OS X (for OS X, you need 10.7 or later)</li>
+	<li>OpenGL 2.0 or later</li>
 </ul>
-</li>
-<li>
-<p>Video</p>
+<p>
+	For more details, see <a href="#dependencies">Dependencies</a> section.
+</p>
+
+<h3>Key Features</h3>
+<dl>
+	<dt>Enhanced Subtitle Handling</dt>
+	<dd>
+		CMPlayer can display multiple subtitle files at once.
+		Also, CMPlayer handles .smi subtitle properly, e.g., multi-language, tag-based format.
+	</dd>
+	
+	<dt>Stays on Top</dt>
+	<dd>
+		You can choice a stays-on-top mode: always, playing, or never.
+		For instance, with playing mode, CMPlayer stays on top only for while playing a media.
+	</dd>
+	
+	<dt>A-B Repeat</dt>
+	<dd>
+		CMPlayer supports A-B repeat.
+		A and B points are selected easily with shortcut.
+		It is also possible to specify repetition interval by subtitle.
+	</dd>
+
+	<dt>Customizable Shortcut</dt>
+	<dd>
+		CMPlayer provides handy default shortcuts.
+		Pushed wrong shortcut accidentally? Don't worry. You can undo and redo it!
+		Do you think they are not handy? Just change them to what you want.
+	</dd>
+</dl>
+<p>
+	CMPlayer also has so many features which are not addressed here.
+	For more details, see <a href="#feature-list">Feature List</a>
+</p>
+
+<h3>Contacts</h3>
+<dl>
+	<dt><a href="https://github.com/xylosper/cmplayer/issues">Issue Tracker</a></dt>
+	<dd>
+		If you have problems or want some features, please report them.
+	</dd>
+	
+	<dt><a href="http://xylosper.net">Blog</a></dt>
+	<dd>
+		It is author's personal blog.
+		You are free to leave any comment about CMPlayer.<br />
+		Although it's Korean page, I can understand English and Japanese as well.
+	</dd>
+	<dt><a href="mailto:darklin20@gmail.com">E-mail</a></dt>
+	<dd>
+		If you want to contact me privately, please send me an e-mail.
+	</dd>
+</dl>
+
+<h3>License</h3>
+<p>CMPlayer is distributed under GPLv2.</p>
+
+<p>Copyright (C) 2013 xylosper</p>
+
+<p>This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.</p>
+
+<p>This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.</p>
+
+<p>You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</p>
+	
+	for end users, which does not require complex settings.
+CMPlayer can be executed in Linux and OS X.
+CMPlayer is distributed under GPL. For more details, please read copyright.txt.
+To compile and install CMPlayer, please read install.txt.
+If you find a bug or have some idea for CMPlayer, please contact followings:
+Developer's Blog: http://xylosper.net
+Developer's E-mail: darklin20@gmail.com
+CMPlayer project homepage: http://code.google.com/p/cmplayer</p>
+
+<h3 id="feature-list">Feature List</h3>
 
 <ul>
-<li>can take snapshots</li>
-<li>can adjust aspect ratio</li>
-<li>can crop video</li>
-<li>can align and move the screen</li>
-<li>can adjust color properties(brightness/saturation/contrast/hue)</li>
-<li>supports various video filters (flipping/blur/sharpen/...)</li>
+	<li>
+		Playback
+		<ul>
+			<li>can play files and DVD</li>
+			<li>generates playlist automatically</li>
+			<li>can change playback speed</li>
+			<li>supports A-B repeat</li>
+			<li>remembers play history</li>
+			<li>can replay from stopped point</li>
+			<li>supports hardware-accelerated decoding</li>
+		</ul>
+	</li>
+	<li>
+		Video
+		<ul>
+			<li>can take snapshots</li>
+			<li>can adjust aspect ratio</li>
+			<li>can crop video</li>
+			<li>can align and move the screen</li>
+			<li>can adjust color properties(brightness/saturation/contrast/hue)</li>
+			<li>supports various video filters (flipping/blur/sharpen/...)</li>
+		</ul>
+	</li>
+	<li>
+		Audio
+		<ul>
+			<li>supports multi-track files</li>
+			<li>supports volume normalization</li>
+			<li>adjusts pitch automatically when playback speed is changed</li>
+		</ul>
+	</li>
+	<li>
+		Subtitle
+		<ul>
+			<li>supports various subtitle formats (Sami(smi)/SubRip(srt)/MicroDVD/TMPlayer)</li>
+			<li>supprots unified subititles of Sami format</li>
+			<li>supports colored subtitles of Sami format</li>
+			<li>can adjust line spacing in subtitle</li>
+			<li>can display several subtitles at the same time</li>
+			<li>detects the encoding of subtitle files</li>
+			<li>has subtitle viewer</li>
+			<li>can seek playback with subtitle time</li>
+			<li>can display DVD with subtitle files</li>
+		</ul>
+	</li>
+	<li>
+		etc.
+		<ul>
+			<li>supports auto-exit which makes itself closed when the playlist has finished</li>
+			<li>supports auto-shutdown which makes the system shutdown when the playlist has finished</li>
+			<li>supports single application</li>
+			<li>supprots the system tray icon on Linux</li>
+			<li>pause when minimized and auto-start when recovered</li>
+			<li>supports 'stays on top'</li>
+			<li>can disable the screensaver while playing</li>
+			<li>can customize the shortcut of every menu</li>
+			<li>can customize mouse action</li>
+			<li>can customize control steps (volume, seeking, and so on)</li>
+		</ul>
+	</li>
 </ul>
-</li>
-<li>
-<p>Audio</p>
 
+<h3 id="dependencies">Dependencies</h3>
+<p>CMPlayer depends on next libraries:
 <ul>
-<li>supports multi-track files</li>
-<li>supports volume normalization</li>
-<li>adjusts pitch automatically when playback speed is changed</li>
+	<li>Qt 5.1 or later for GUI</li>
+	<li><a href="http://mpv.io/">mpv</a> for playback backend</li>
+	<li><a href="http://www.ffmpeg.org/">ffmpeg</a> for decoding</li>
+	<li><a href="http://code.google.com/p/libass">libass</a> for .ass subtitle support</li>
+	<li><a href="http://dvdnav.mplayerhq.hu">libdvdread</a> for DVD support</li>
+	<li><a href="http://www.gnu.org/software/libcdio">libcdio</a> for audio CD support</li>
+	<li><a href="http://quvi.sourceforge.net">libquvi</a> for playback of web-address</li>
+	<li><a href="http://www.freedesktop.org/wiki/Software/vaapi">libva</a> for hardware decoding by VA-API(Linux-only)</li>
 </ul>
-</li>
-<li>
-<p>Subtitle</p>
+</p>
+</section>
 
+<aside id="sidebar">
+<p class="repo-owner"><a href="https://github.com/xylosper/cmplayer"></a>Maintained by <a href="http://xylosper.net">xylosper</a>.</p>
+
+ <!-- sample <a href="https://github.com/xylosper/cmplayer/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a> -->
+<a href="" class="button"><small>Download</small>.zip file</a>
+<a class="button">AUR</a>
+
+
+<h3>Links</h3>
 <ul>
-<li>supports various subtitle formats (Sami(smi)/SubRip(srt)/MicroDVD/TMPlayer)</li>
-<li>supprots unified subititles of Sami format</li>
-<li>supports colored subtitles of Sami format</li>
-<li>can adjust line spacing in subtitle</li>
-<li>can display several subtitles at the same time</li>
-<li>detects the encoding of subtitle files</li>
-<li>has subtitle viewer</li>
-<li>can seek playback with subtitle time</li>
-<li>can display DVD with subtitle files</li>
+	<li><a href="https://github.com/xylosper/cmplayer/issues">Issue Tracker</a></li>
+	<li><a href="https://github.com/xylosper/cmplayer/releases">Release List</a></li>
+	<li><a href="http://xylosper.net">Author's Blog</a></li>
 </ul>
-</li>
-<li>
-<p>etc.</p>
-
-<ul>
-<li>supports auto-exit which makes itself closed when the playlist has finished</li>
-<li>supports auto-shutdown which makes the system shutdown when the playlist has finished</li>
-<li>supports single application</li>
-<li>supprots the system tray icon on Linux</li>
-<li>pause when minimized and auto-start when recovered</li>
-<li>supports 'stays on top'</li>
-<li>can disable the screensaver while playing</li>
-<li>can customize the shortcut of every menu</li>
-<li>can customize mouse action</li>
-<li>can customize control steps (volume, seeking, and so on)</li>
-</ul>
-</li>
-</ul><p>CMPlayer also has so many features which are not addressed here.
-Welcome any suggest and bug report.</p>
-
-<p>CMPlayer is distributed under GNU public license (GPL).</p>
-
-<h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
-
-        <aside id="sidebar">
 
 
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div>
 
+       
+
+<p style="font-size:11px;">Hosted by <a href="pages.github.com">GitHub Pages</a>.<br>
+Base design by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+</aside>
+
+</div></div>
             <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
