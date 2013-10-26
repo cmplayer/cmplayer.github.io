@@ -64,6 +64,11 @@ strong {
   text-decoration: underline;
 }
 
+a.news_date {
+  color: black;
+  text-decoration: underline;
+}
+
 a {
   color: #2879d0;
 }
